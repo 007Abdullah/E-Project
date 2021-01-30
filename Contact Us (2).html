@@ -1,0 +1,263 @@
+﻿<html>
+<head>
+	<title> CONTACT US </title>
+</head>
+<style>
+*
+{
+	margin:0px;
+}
+.Contact-us-Container
+{
+	width:100%;
+	height:100px;
+	background-color:#f2f2f2;
+}
+nav
+{
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	width:100%;
+	display:block;
+	position:fixed;
+	background:#000;
+	height:100px;
+	box-sizing:border-box;
+	padding:10px 100px;
+	list-style:none;
+	z-index: 999;
+	
+}
+nav .logo
+{
+	float:left;
+	
+}
+nav .logo img
+{
+	
+	height:100px;
+	border-radius:10px;
+	margin-top:-11px;
+	
+	
+}
+
+nav ul
+{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+nav ul li
+{
+	float:right;
+	list-style:none;
+	text-decoration:none;
+	text-transform:uppercase;
+	margin-top:40px;
+	
+}
+
+nav ul li a
+{
+	list-style:none;
+	color:#FFF;
+	padding:5px 20px;
+	list-style:none;
+	text-decoration:none;
+	
+	
+}
+nav ul li a:hover
+{
+	color:#630;
+	transition: .5s ease;
+}
+
+.Contactus-Heading h3
+{
+	padding:20px 0px 0px 0px;
+	text-align:center;
+	font-family:Calibri;
+	font-size:40px;
+	color:#7e7f82;
+	margin-bottom:20px;
+	border:2px solid #919396;
+	margin-left:120px;
+	margin-right:120px;
+	padding:15px;
+	border-left:transparent;
+	border-right:transparent;
+	border-top:transparent;
+	position:relative;
+	animation:text 3s 1;
+}
+keyframes text{
+	0%{
+		color:#B2B1B0;
+		margin-bottom:-100px;
+	}
+	30%{
+		letter-spacing:25px;
+		margin-bottom:-100px;
+	}
+	85%{
+		letter-spacing:10px;
+		margin-bottom:-100px;
+	}
+}
+.Contact-form-div
+{
+	width:550px;
+	height:450px;
+	background-color:transparent;
+	text-align:center;
+	margin-top:19px;
+	margin-left:160px;
+}
+.Heading-Hello h1
+{
+	font-family:Calibri;
+	color:#B2B1B0;
+	text-transform:uppercase;
+	transition: all 4s ease-in-out;
+	font-size:32px;
+}
+.Heading-Hello h2
+{
+	font-size:16px;
+	font-family:Calibri;
+	color:#B2B1B0;
+}
+form
+{
+	margin-top:20px;
+}
+.form-control
+{
+	width:500px;
+	background:transparent;
+	outline:none;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-bottom: 1px solid #929599;
+	color:#7c7f82;
+	font-size:16px;
+	margin-bottom:5px;
+}
+input
+{
+	height:45px;
+}
+.form-controlsubmit
+{
+	width:150px;
+	height:20px;
+	background:black;
+	border-color:transparent;
+	color:white;
+	font-size:20px;
+	font-family:Calibri;
+	font-weight:bold;
+	height:50px;
+	margin-top:20px;
+	margin-bottom:50px;
+	opacity:0.8;
+}
+.form-controlsubmit:hover
+{
+	cursor:pointer;
+	border:1px solid black;
+	background-color:#f2f2f2;
+	color:black;
+	opacity:0.9;
+	transition:1s;
+}
+.Map-img
+{
+	width:400px;
+	height:350px;
+	background-color:pink;
+	margin-left:750px;
+	margin-top:-450px;
+}
+.Map-img img
+{
+	width:430px;
+	height:365px;
+}
+.Content
+{
+	width:100%;
+	height:68px;
+	background-color:white;
+	margin-top:55px;
+}
+.Text
+{
+	padding:25px;
+}
+.Bottom
+{
+	width:100%;
+	height:88px;
+	background-color:#2E2C2A;
+}
+.Copy
+{
+	padding:35px 0px 0px 50px;
+	text-align:center;
+	color:#f2f2f2;
+}
+</style>
+<body>
+
+<div class="Contact-us-Container">
+<nav>
+<div class="logo">
+<img src="ablogo.JPG"/>
+</div>
+<ul>
+	<li><a href="Feedback Form.html">FeedBack Form</a></li>
+    <li><a href="About Us.html">About Us</a></li>
+    <li><a href="Contact Us (2).html">Contact Us</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="aptech/Untitled-6.html">Collection</a></li>
+    <li><a href="Jewellery.html">Home</a></li>
+    
+</ul>
+</nav>
+</div>
+<div  class="Contactus-Heading"><h3> CONTACT PAGE </h3></div>
+
+<div class="Contact-form-div">
+<div class="Heading-Hello"><h1> SAY HELLO </h1></div>
+<div class="Heading-Hello"><h2> We are already to serve you!</h2></div>
+<form method="post" action="" >
+	<input name=" type="text" class="form-control"  id="name" placeholder="Your Name" pattern="[A-Za-z].{3,}" required><br>
+	<input name="email" type="email" class="form-control" placeholder="Your Email" pattern="[A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required><br>
+	<textarea name="message" class="form-control" placeholder="Message" rows="6" required></textarea><br/>
+	<input type="submit" class="form-controlsubmit" value="SEND"/>
+    <input type="reset" class="form-controlsubmit" value="RESET"/>
+</form></div>
+
+<div class="Map-img">
+
+<img src="map.jpg"/>
+
+</div>
+
+<div class="Content"><center><p class="Text"> We promise only send the good things </p></center>
+
+<div class="Bottom">
+<p class="Copy">© 2018 Jewelry - Pascal Jwellers. All Rights Reserved. </p></div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://w...content-available-to-author-only...3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://w...content-available-to-author-only...3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<style>
+
+#sdata1,#sdata2
+{
+	width: 500px;
+    height: 44px;
+    background-color: indianred;
+	
+}
+
+div
+{
+	width: 500px;
+	height: 700px;
+	border: 2px solid #000;
+	margin: 10px;
+	float: left;
+}
+
+#image1,#image2
+{
+	border:2px solid #00C;
+	background-color:#CCC;
+	width:500px;
+	height:300px;
+	margin-top: 20px;
+	
+	
+}
+
+</style>
+
+
+<script>
+<!-- first funcation -->
+function data1()
+{
+var dt1 = document.getElementById("sdata1").value;
+var img1 = document.getElementById("image1");
+var dt2  = document.getElementById("sdata2").value;
+var p = document.getElementById("para");
+
+if(dt1 == dt2)
+{
+	alert("Select Same VAlues");
+	
+	
+}
+if(dt1=="samsung galaxy s3")
+{
+	alert("hello");
+	
+	img1.src="samsung galaxy s3.jpg";	
+	para.innerHTML="8 MP camera"+"<br/>"+"FM RADIO"+"<br/>"+"INTERNAL MEMORY 8 GB"+"<br/>"+"1 GB RAM"+"<br/>"+"LED FLASH"+"<br/>"+"Li-Ion 2100 mAh battery"+"<br/>"+"RS 24999";
+	
+}
+if(dt1=="samsung galaxy s4")
+{
+	
+	img1.src="samsung galaxy s4.jpg";	
+	para.innerHTML="8 MP camera"+"<br/>"+"FM RADIO"+"<br/>"+"INTERNAL MEMORY 8 GB"+"<br/>"+"1 GB RAM"+"<br/>"+"LED FLASH"+"<br/>"+"Li-Ion 2100 mAh battery"+"<br/>"+"RS 24999";
+	
+}
+
+
+}
+
+
+//second function
+function data2()
+{
+var dt2 = document.getElementById("sdata2").value;
+var img2 = document.getElementById("image2");
+var dt1  = document.getElementById("sdata1").value;
+var p2 = document.getElementById("para2");
+
+if(dt1 == dt2)
+{
+	alert("Select Same VAlues");
+	
+	
+}
+if(dt2 == "samsung galaxy s3")
+{
+	
+	img1.src="samsung galaxy s3.jpg";	
+	para2.innerHTML="8 MP camera"+"<br/>"+"FM RADIO"+"<br/>"+"INTERNAL MEMORY 8 GB"+"<br/>"+"1 GB RAM"+"<br/>"+"LED FLASH"+"<br/>"+"Li-Ion 2100 mAh battery"+"<br/>"+"RS 24999";
+	
+}    
+if(dt2=="samsung galaxy s4")
+{
+	
+	img1.src="samsung galaxy s4.jpg";	
+	para2.innerHTML="8 MP camera"+"<br/>"+"FM RADIO"+"<br/>"+"INTERNAL MEMORY 8 GB"+"<br/>"+"1 GB RAM"+"<br/>"+"LED FLASH"+"<br/>"+"Li-Ion 2100 mAh battery"+"<br/>"+"RS 24999";
+	
+}
+
+
+
+}
+
+</script>
+
+
+<body>
+
+<!-- First Div --> 
+<div>
+<select id="sdata1" onchange="data1()" >
+<option> select a value </option>
+<option value="samsung galaxy s3"> samsung galaxy s3 </option>
+<option value="samsung galaxy s4"> samsung galaxy s4 </option>
+<option value="samsung galaxy s5"> samsung galaxy s5 </option>
+<option value="samsung galaxy s6"> samsung galaxy s6 </option>
+<option value="samsung note 3"> samsung note 3 </option>
+<option value="samsung note 4"> samsung note 4</option>
+<option value="samsung note 2"> samsung note 2 </option>
+</select>
+<img id="image1" src=""/>
+<p id="para">
+
+
+</p>
+
+</div>
+
+<!-- second Div -->
+<div>
+<select id="sdata2" onchange="data2()" >
+<option> select a value </option>
+<option value="samsung galaxy s3"> samsung galaxy s3 </option>
+<option value="samsung galaxy s4"> samsung galaxy s4 </option>
+<option value="samsung galaxy s5"> samsung galaxy s5 </option>
+<option value="samsung galaxy s6"> samsung galaxy s6 </option>
+<option value="samsung note 3"> samsung note 3 </option>
+<option value="samsung note 4"> samsung note 4</option>
+<option value="samsung note 2"> samsung note 2 </option>
+</select>
+<img id="image2" src=""/>
+
+<p id="para2">
+</p>
+
+</div>
+
+</body>
+</html>
